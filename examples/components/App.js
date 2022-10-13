@@ -39,13 +39,13 @@ const App = () => (
     <MuiThemeProvider theme={theme}>
         <AppBar position="static">
             <Toolbar>
-                <Icon className="fab fa-react"/>
+                {/* <Icon className="fab fa-react"/> */}
                 <Typography
                     variant="title"
                     color="inherit"
                     style={{marginLeft: 10}}
                 >
-                    ReactJS File Uploader
+                    Image Uploader
                 </Typography>
 
                 <div style={{marginLeft: 'auto'}}>
@@ -86,14 +86,14 @@ const App = () => (
                 align='center'
                 style={styles.typography}
             >
-                ReactJS File Uploader Demo
+                Image Uploader
             </Typography>
 
             <Typography
                 align='center'
                 style={styles.typography}
             >
-                Select files to upload to see it in action.
+                Select images to upload.
             </Typography>
             <Typography
                 align='center'
